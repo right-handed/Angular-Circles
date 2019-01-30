@@ -1,0 +1,6 @@
+<div class="container">
+    <div class="circle" *ngFor="let circle of circles"
+         [ngStyle]="{'width': circle.size*2+'px','height': circle.size*2+'px','top': circle.y+'%','left': circle.x+'%','background': circle.color}"></div>
+</div>
+
+
